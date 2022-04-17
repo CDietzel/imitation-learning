@@ -1,7 +1,7 @@
 #!/bin/bash
 
 env='hopper'
-algos=("BC" "AIRL" "DRIL" "FAIRL" "GAIL" "GMMIL" "RED")
+algos=("BC" "IBC" "AIRL" "DRIL" "FAIRL" "GAIL" "GMMIL" "RED")
 count=5
 
 for algo in ${algos[@]}; do
